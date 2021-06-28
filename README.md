@@ -22,5 +22,5 @@ The pipeline is demonstrated as follows:
 ![ROI](Output/ROI/Lane_1_canny_ROI_image.png?raw=true)
 * Perform a Hough Transform to find lanes within our region of interest and trace them in red
 ![Lane Detection](Output/ROI/Lane_1_canny_ROI_image.png?raw=true)
-* Separate left and right lanes
+* Separate left and right lane
 ![Lane Separation](Output/Separated%20Lanes/Lane_1_Different_Lane_Colors.png?raw=true)
