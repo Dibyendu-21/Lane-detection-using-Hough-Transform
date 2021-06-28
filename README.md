@@ -1,9 +1,10 @@
 # Lane detection using Hough Transform
 This repo gives a demonstration of detecting lanes using Hough transformation. Hough transform can easily detect straight lines from images after converting it from image space (cartesian coordinate) to hough space (polar coordinates). It has not only detected lanes in an image but also able to separate out the left and right lanes by coloring them  differently.
 
-## The Pipeline
+## Design Pipeline
 The pipeline is demonstrated as follows:
 *	Convert original image to HSL
+![HSL Image](https://github.com/Dibyendu-21/Lane-detection-using-Hough-Transform]/tree/main/Output/HSL/Lane_1_hsl_image.png?raw=true)
 * Isolate yellow and white from HSL image
 * Combine isolated HSL with original image
 * Convert image to grayscale for easier manipulation
