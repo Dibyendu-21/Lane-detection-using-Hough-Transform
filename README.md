@@ -20,7 +20,7 @@ The pipeline is demonstrated as follows:
 ![Edge Detection](Output/Edge%20Detection%20using%20Canny%20Filter/Lane_1_canny_isolated_image.png?raw=true)
 * Trace Region Of Interest and discard all other lines identified by our previous step that are outside this region
 ![ROI](Output/ROI/Lane_1_canny_ROI_image.png?raw=true)
-* Perform a Hough Transform to find lanes within our region of interest and trace them in red
+* Perform a Hough Transform to find lanes within our region of interest and trace them in blue
 ![Lane Detection](Output/Detected%20Lanes/Lane_1_Hough_Lane_image.png?raw=true)
 * Separate left and right lane
 ![Lane Separation](Output/Separated%20Lanes/Lane_1_Different_Lane_Colors.png?raw=true)
